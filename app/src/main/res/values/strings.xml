@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExamenNaat</string>
+    <!--    Main Strings    -->
+    <string name="main_version">V2.0</string>
+    <string name="main_boton">INICIAR SESIÓN</string>
+
+    <!--    Menu Strings    -->
+    <string name="tab_pines">PINES</string>
+    <string name="tab_recargas">RECARGAS</string>
+    <string name="tab_recaudacion">RECAUDACIÓN</string>
+    <string name="tab_administracion">ADMINISTACIÓN</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

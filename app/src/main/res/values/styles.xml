@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--    Action Bar  -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!--    App theme   -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--    TextView Style-->
+    <style name="TextViewPrimary">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <!--    EditText Style-->
+    <style name="EditTextPrimary">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:drawablePadding">14sp</item>
+    </style>
+
+
+
+</resources>

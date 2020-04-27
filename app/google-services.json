@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1056026242110",
+    "firebase_url": "https://examennaat-1578a.firebaseio.com",
+    "project_id": "examennaat-1578a",
+    "storage_bucket": "examennaat-1578a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056026242110:android:5e7b2efaa8b91ff524f56f",
+        "android_client_info": {
+          "package_name": "com.rba.examennaat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056026242110-sm13jg73qp2krkbqkbvapj22fcg5p175.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rba.examennaat",
+            "certificate_hash": "69ddded36f9ecaddc2c514f53438e1d556b8b423"
+          }
+        },
+        {
+          "client_id": "1056026242110-oc4doftm1h8quliinh8aslnvf9np2s71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj0JnngXf51Q-GM4Z7pBpQcGjS89X3XEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056026242110-oc4doftm1h8quliinh8aslnvf9np2s71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
