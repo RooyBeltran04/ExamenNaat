@@ -2,6 +2,7 @@ package com.rba.examennaat;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
@@ -26,8 +27,8 @@ public class MenuActivity extends AppCompatActivity {
     private TabItem mtabRecaudacion,mtabRecargas,mtabAdministracion;
     private PagerAdapter pagerAdapter;
     private ArrayList<Empresa> arrayEmpresas;
-    FirebaseDatabase firebaseDatabase;
-    DatabaseReference databaseReference;
+    private RecyclerView mrecyclerView;
+
 
 
     @Override
@@ -44,25 +45,7 @@ public class MenuActivity extends AppCompatActivity {
         //inicializamos ArrayList
         arrayEmpresas=new ArrayList<>();
 
-        //inicializamos atributos de firebase
-        FirebaseApp.initializeApp(this);
-        firebaseDatabase=FirebaseDatabase.getInstance();
-        databaseReference=firebaseDatabase.getReference();
-        databaseReference.child("Empresa").addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                for (DataSnapshot objSnaptshot : dataSnapshot.getChildren()){
-                    Empresa e = objSnaptshot.getValue(Empresa.class);
-                    Log.d("RBA",e.toString());
-                    arrayEmpresas.add(e);
-                }
-            }
 
-            @Override
-            public void onCancelled(@NonNull DatabaseError databaseError) {
-
-            }
-        });
 
         //PagerAdapter
         pagerAdapter=new PagerAdapter(getSupportFragmentManager(),mtabL.getTabCount());

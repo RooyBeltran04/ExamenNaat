@@ -7,6 +7,11 @@ public class Empresa {
     public Empresa() {
     }
 
+    public Empresa(String nombre, String opciones) {
+        this.nombre = nombre;
+        this.opciones = opciones;
+    }
+
     public String getNombre() {
         return nombre;
     }

@@ -7,10 +7,6 @@
     android:orientation="vertical"
     tools:context=".fragments.RecargasFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/tab_recargas" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rVRecarga"
